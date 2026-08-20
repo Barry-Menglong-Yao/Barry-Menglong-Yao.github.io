@@ -220,6 +220,10 @@ img {
   content: "";
 }
 
+.portrait-frame picture {
+  display: contents;
+}
+
 .portrait-frame img {
   position: relative;
   z-index: 1;
@@ -381,9 +385,30 @@ img {
   text-decoration-color: rgba(23, 92, 70, 0.4);
 }
 
+.opportunity-note {
+  display: flex;
+  max-width: 800px;
+  margin: 28px 0 0;
+  padding: 12px 15px;
+  gap: 12px;
+  align-items: center;
+  border-left: 3px solid var(--gold);
+  color: #46544d;
+  background: rgba(220, 233, 226, 0.52);
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+.opportunity-note span {
+  color: var(--green);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
 .hero-actions {
   display: flex;
-  margin-top: 38px;
+  margin-top: 22px;
   gap: 12px;
   flex-wrap: wrap;
 }
