@@ -917,9 +917,9 @@ img {
 
 .timeline p {
   margin: 0;
-  color: #66716b;
-  font-size: 0.8rem;
-  line-height: 1.55;
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+  line-height: 1.6;
 }
 
 .awards-panel {
