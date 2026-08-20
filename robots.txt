@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://barry-menglong-yao.github.io/sitemap.xml
