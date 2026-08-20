@@ -1290,7 +1290,7 @@ img {
   }
 
   .hero-section h2 {
-    font-size: clamp(2.7rem, 12vw, 3.55rem);
+    font-size: clamp(2.35rem, 10vw, 3.15rem);
   }
 
   .hero-copy {
