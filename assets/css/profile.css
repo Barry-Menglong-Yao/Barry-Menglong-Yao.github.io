@@ -478,10 +478,11 @@ img {
 
 .research-snapshot dd {
   margin: 2px 0 0;
-  color: #78817c;
-  font-size: 0.72rem;
+  color: var(--ink-soft);
+  font-size: 0.8rem;
+  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.055em;
 }
 
 .section-block {
